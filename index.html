@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Aidan Brin Portfolio</title>
+  <title>Service Site</title>
 
   <!-- Bootstrap 5 CSS -->
   <link
@@ -18,11 +18,20 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
   <div class="container">
-    <a class="navbar-brand" href="#">Home</a>
+    <a class="navbar-brand" href="#">Aidan's Restaurant</a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
       <span class="navbar-toggler-icon"></span>
     </button>
+
+    <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="reserve.html">Make a Reservation</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="order.html">Order</a>
+        </li>
+      </ul>
 
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ms-auto">
@@ -33,14 +42,61 @@
   </div>
 </nav>
 
+<div class="hero-image">
+  <img src="Images/restaurant.jpg" alt="Restaurant interior" />
+</div>
 
 
 
+<div class="text-section">
+  <h2 class="section-heading">Menu</h2>
+  <p> </p>
+  <div class="text-col">
+    <h2 class =" food-group">Salads</h2>
+    <h3 class="sub-heading">Caesar Salad - $12.99</h3>
+    <p>Romaine, parmesan, croutons, caesar dressing</p>
+    <h3 class="sub-heading">Garden Salad - $10.99</h3>
+    <p>Mixed greens, tomato, cucumber, vinaigrette</p>
+    <h3 class="sub-heading">Greek Salad - $12.99</h3>
+    <p>Feta, olives, tomato, red onion, oregano</p>
+
+    <h2 class =" food-group">Entrees</h2>
+    <h3 class="sub-heading">Grilled Chicken - $18.99</h3>
+    <p>Herb-marinated chicken breast with seasonal veg</p>
+    <h3 class="sub-heading">Beef Burer - $16.99</h3>
+    <p>8oz patty, cheddar, lettuce, tomato, brioche bun</p>
+    <h3 class="sub-heading">Pasta Primavera - $15.99</h3>
+    <p>Penne, roasted vegetables, garlic olive oil</p>
+  </div>
+  <div class="text-col">
+    <h2 class =" food-group">Desserts</h2>
+    <h3 class="sub-heading">Cheesecake - $8.99</h3>
+    <p>New York style with berry compote</p>
+    <h3 class="sub-heading">Chocolate Lava Cake - $9.99</h3>
+    <p>Warm chocolate cake with vanilla ice cream</p>
+
+    <h2 class =" food-group">Drinks</h2>
+    <h3 class="sub-heading">Lemonade - $4.99</h3>
+    <p>Fresh squeezed with mint</p>
+    <h3 class="sub-heading">Iced Coffee</h3>
+    <p>Cold brew over ice with cream</p>
+
+    <h2 class =" food-group">Specials</h2>
+    <h3 class="sub-heading">Chef's Special - $24.99</h3>
+    <p>Ask your server! - changes daily</p>
+  </div>
+</div>
+
+<footer class="site-footer">
+  <p>Aidan's Restaurant — Designed & Created by Aidan Brin — 2026</p>
+</footer>
 
   <!-- Bootstrap 5 JS -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 <script src="JS/script.js"></script>
+
+
 
 </body>
 </html>
